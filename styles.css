@@ -23,5 +23,20 @@
     margin-right: 20%;
     left: 40%;
   }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #9b9e9785;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #174903;
+  }
   
   

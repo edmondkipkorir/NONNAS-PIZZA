@@ -21,8 +21,8 @@
             <p id="hide">Our pizza gives you the best of blend of Kenyan and Italian flavours. <br> Indulge yourself ,<br> no guilty pleasures only the good stuff.</p>
             <select class="form-control size">
                 <option label="Small" value="500">Small</option>
-                <option label="Medium" value="700">Medium</option>
-                <option label="Large" value="1000">Large</option>
+                <option label="Medium" value="950">Medium</option>
+                <option label="Large" value="1300">Large</option>
               </select>
         </div>
     </div>
@@ -32,8 +32,8 @@
             <h1>Toppings</h1>
             <p id="hide1">We know pizza is awesome but our high quality toppings <br> will definetely take your pizza to the next level.</p>
             <select class="form-control toppings">
-                <option label="Olives" value="100">Olives</option>
-                <option label="Cheese" value="50">Cheese</option>
+                <option label="Olives" value="150">Olives</option>
+                <option label="Cheese" value="100">Cheese</option>
                 <option label="Pepperoni" value="80">Pepperoni</option>
               </select>   
         </div>
@@ -51,6 +51,57 @@
         </div>
     </div>
     </div>
+    
+    <table>
+        <tr>
+            <th>Order No</th>
+            <th>Pizza Size</th>
+            <th>Toppings</th>
+            <th>Crust</th>
+            <th>TOTAL</th>
+          </tr>
+          <tr>
+            <tbody id="pizza">
+                <tr>
+                  <th scope="row">1</th>
+                  <td id="size"></td>
+                  <td id="toppings"></td>
+                  <td id="crust"></td>
+                  <td id="total"></td>
+                </tr>
+              </tbody>
+            
+    </table>
+    <!-- <div class="additional-buttons">
+        <div class="text-center">
+          <button class="btn btn-info add-pizza" type="submit">Add Another</button>
+          <div class="additional-info">
+            <h3>The total is: <span></span></h3>
+            <h5>Would you like delivery for an additional <em>200</em>?</h5>
+            <h4>Your order has been received! We are dispatching our rider to <span></span></h4>
+            <div class="location text-center">
+              <input type="text" size="30" placeholder="Where do you live?" required />
+              <button class="btn btn-info complete" type="submit">Complete</button>
+            </div>
+          </div>
+          <br>
+          <button class="btn btn-info yes" type="submit">Yes</button>
+          <button class="btn btn-info no" type="submit">No</button>
+        </div>
+        <div class="text-right">
+          <button class="btn btn-info check-out" type="submit">Checkout</button>
+        </div>
+      </div> -->
+      <div class="additional-button">
+        <button class="btn btn-info add-pizza" type="submit">Add Another</button>
+        <div class="additional-info">
+            <h3>The total is: <span></span></h3>
+            <h5>Would you like delivery for an additional <em>300</em>?</h5>
+            <h4>Your order has been received! We are dispatching our rider to <span></span></h4>
+
+        </div>
+      </div>
+
 </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>   

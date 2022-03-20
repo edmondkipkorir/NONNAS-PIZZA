@@ -23,3 +23,13 @@ $('#hide').hide();
                 $(".overlay-text").hide();        
             
             });
+
+            $("table").show();
+  $(".additional-buttons").show();
+  $(".additional-info").show();
+  $(".btn.yes").show();
+  $(".btn.no").show();
+  $(".additional-info h4").show
+  ();
+
+  
