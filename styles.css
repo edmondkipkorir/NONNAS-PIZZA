@@ -3,9 +3,28 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
     position: relative;
     text-align: center;
     font-size: medium;
     color: aqua;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20%;
+    left: 40%;
+  }
+  .pizza {
+    border-radius: 20px;
+    height: 30px;  
+
+  }
+  
