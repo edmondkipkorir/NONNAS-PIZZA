@@ -41,7 +41,7 @@ $('#hide').hide();
 
     $("table").show();
     $(".additional-buttons").show();
-    $(".btn.order").hide();
+    $(".btn.order").show();
 
     $("#size").html($(".size option:selected").text() + " - " + sizeOfPizza);
     $("#toppings").html($(".toppings option:selected").text() + " - " + toppingsOfPizza);
